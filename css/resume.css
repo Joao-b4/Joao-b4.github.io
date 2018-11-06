@@ -25,12 +25,27 @@ body {
 
 .prox{  margin-top: -14%;
   margin-bottom:4%;}
+  .particulas{
+  max-width:50%;
+  max-height:30%;
+  }
+  .particulas{
+  max-width:20%;
+  max-height:30%;
+  }
 
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
   }
+  .prox{  margin-top: -14%;
+    margin-bottom:4%;}
+    .particulas{
+    max-width:100%;
+    max-height:100%;
+    }
+
 }
 
 h1,
@@ -138,6 +153,7 @@ p.lead {
     width: 17rem;
     height: 100vh;
     background-color: #343a40;
+    box-shadow: 2px 0px 30px #17a2b8;
   }
   .sideNav .navbar-brand {
     display: -webkit-box;
