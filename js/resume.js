@@ -43,7 +43,7 @@ $(document).ready(function(){
         $("#pen-d").hide();
     });
     $('#nav-expander').click(function(){
-      $("#tNav").show(2000);
+      $("#tNav").show(800);
       $("body").removeClass("ttbody");
       $("body").addClass("tbody");
       $("#nav-expander").removeClass("hideki");
@@ -51,7 +51,7 @@ $(document).ready(function(){
 
     });
     $('#pingu').click(function(){
-      $("#tNav").hide(1300);
+      $("#tNav").hide(800);
       $("body").removeClass("tbody");
       $("body").addClass("ttbody");
       $("#nav-expander").removeClass("hidekiHI");
