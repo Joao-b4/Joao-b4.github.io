@@ -26,6 +26,7 @@
   });
 
 })(jQuery); // End of use strict
+
 $(document).ready(function(){
     $("#dev-d").show();
     $("#pen-d").hide();
@@ -41,4 +42,21 @@ $(document).ready(function(){
         $("#dev-d").show();
         $("#pen-d").hide();
     });
+    $('#nav-expander').click(function(){
+      $("#tNav").show(2000);
+      $("body").removeClass("ttbody");
+      $("body").addClass("tbody");
+      $("#nav-expander").removeClass("hideki");
+      $("#nav-expander").addClass("hidekiHI");
+
+    });
+    $('#pingu').click(function(){
+      $("#tNav").hide(1300);
+      $("body").removeClass("tbody");
+      $("body").addClass("ttbody");
+      $("#nav-expander").removeClass("hidekiHI");
+      $("#nav-expander").addClass("hideki");
+
+    });
+
 });

@@ -24,27 +24,58 @@ body {
 }
 
 .prox{  margin-top: -14%;
-  margin-bottom:4%;}
-  .particulas{
-  max-width:50%;
-  max-height:30%;
-  }
+  margin-bottom:4%;
+}
+
   .particulas{
   max-width:20%;
   max-height:30%;
   }
 
+.hideki{
+  margin-left: 40px; font-size: 30px; position: fixed;
+  margin-top: 30px;
+}
+.pingu{
+  margin-left: 2px; font-size:25px; color: #ffff; margin-top:10px;
+}
+.hidekiHI{
+  display: block;
+  display: none;
+}
+.active{
+  color: grey;
+}
+.active:hover{
+  color:#17a2b8;
+}
+
 @media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    padding-left: 17rem;
-  }
   .prox{  margin-top: -14%;
     margin-bottom:4%;}
     .particulas{
     max-width:100%;
     max-height:100%;
     }
+.tbody{
+  padding-top: 0;
+  padding-left: 17rem;
+}
+.ttbody{
+  padding-top: 0;
+  padding-left: 3rem;
+}
+.hideki{
+  margin-left: 40px; font-size: 30px; position: fixed;
+  color:blue;
+}
+.hidekiHI{
+  display: block;
+  display: none;
+}
+.pingu{
+  margin-left: 230px; font-size:30px; color: #ffff; margin-top:10px;
+}
 
 }
 
