@@ -225,7 +225,6 @@ p.lead {
     width: 17rem;
     height: 100vh;
     background-color: #343a40;
-    box-shadow: 2px 0px 30px #17a2b8;
   }
   .sideNav .navbar-brand {
     display: -webkit-box;
