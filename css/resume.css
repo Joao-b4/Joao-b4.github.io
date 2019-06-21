@@ -13,7 +13,9 @@ body {
 .sideNav{
   background-color:#343a40
 }
-
+#conquistas img{
+  max-height: 430px;
+}
 
 #portfolio{
   margin-top:2%;
