@@ -72,8 +72,10 @@ figure{
   }
 
 .hideki{
-  margin-left: 40px; font-size: 30px; position: fixed;
-  margin-top: 1px;
+    margin-left: 30px;
+    font-size: 30px;
+    position: fixed;
+    margin-top: -40px;
 }
 .pingu{
   margin-left: 2px; font-size:25px; color: #ffff; margin-top:10px;
@@ -103,10 +105,6 @@ figure{
   .ttbody{
     padding-top: 0;
     padding-left: 3rem;
-  }
-  .hideki{
-    margin-left: 40px; font-size: 30px; position: fixed;
-    color:blue;
   }
   .hidekiHI{
     display: block;
@@ -303,9 +301,17 @@ section.resume-section .resume-item .resume-date {
   .group-projetos{
     flex-direction: row !important;
   }
+  .hideki{
+    margin-left: 40px;
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 992px) {
+  .hideki{
+    margin-left: -2px;
+    margin-top: 10px;
+  }
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
