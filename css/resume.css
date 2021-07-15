@@ -34,6 +34,24 @@ figure{
   box-shadow: 2px 1px 1px #868e96;
 }
 
+.flex-1{
+  flex:1;
+}
+.flex-2{
+  flex:2;
+}
+.flex-3{
+  flex:3;
+}
+.flex-4{
+  flex:4;
+}
+.flex-5{
+  flex:5;
+}
+.flex-6{
+  flex:6;
+}
 
 
 .center-e{
@@ -282,6 +300,9 @@ section.resume-section .resume-item .resume-date {
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
+  .group-projetos{
+    flex-direction: row !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -305,4 +326,25 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.group-projetos{
+  flex-direction: column;
+  display: flex;
+}
+
+.projeto{
+  flex: 1;
+}
+
+.row-content-projeto{
+  border-bottom: 1px solid #ccc;
 }

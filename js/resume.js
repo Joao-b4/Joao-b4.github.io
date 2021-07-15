@@ -33,12 +33,16 @@ $(document).ready(function(){
     $("#pen").click(function(){
         $("#pen").addClass("active shadow");
         $("#dev").removeClass("active shadow");
+        $("#dot-pen").addClass("bg-primary");
+        $("#dot-dev").removeClass("bg-primary");
         $("#dev-d").hide();
         $("#pen-d").show();
     });
     $("#dev").click(function(){
         $("#dev").addClass("active shadow");
         $("#pen").removeClass("active shadow");
+        $("#dot-dev").addClass("bg-primary");
+        $("#dot-pen").removeClass("bg-primary");
         $("#dev-d").show();
         $("#pen-d").hide();
     });
