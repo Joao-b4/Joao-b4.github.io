@@ -343,7 +343,7 @@ a:hover, a:focus, a:active {
 }
 
 .line{
-  height: 2px;
+  height: 3px;
   width: 50px;
   background-color: #bbb;
   display: inline-block;
