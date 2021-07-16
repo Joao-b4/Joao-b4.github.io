@@ -342,6 +342,13 @@ a:hover, a:focus, a:active {
   display: inline-block;
 }
 
+.line{
+  height: 2px;
+  width: 50px;
+  background-color: #bbb;
+  display: inline-block;
+}
+
 .group-projetos{
   flex-direction: column;
   display: flex;
@@ -353,4 +360,8 @@ a:hover, a:focus, a:active {
 
 .row-content-projeto{
   border-bottom: 1px solid #ccc;
+}
+
+#dev,#pen{
+  cursor: pointer;
 }

@@ -30,22 +30,13 @@
 $(document).ready(function(){
     $("#dev-d").show();
     $("#pen-d").hide();
-    $("#pen").click(function(){
-        $("#pen").addClass("active shadow");
-        $("#dev").removeClass("active shadow");
-        $("#dot-pen").addClass("bg-primary");
-        $("#dot-dev").removeClass("bg-primary");
-        $("#dev-d").hide();
-        $("#pen-d").show();
-    });
-    $("#dev").click(function(){
-        $("#dev").addClass("active shadow");
-        $("#pen").removeClass("active shadow");
-        $("#dot-dev").addClass("bg-primary");
-        $("#dot-pen").removeClass("bg-primary");
-        $("#dev-d").show();
-        $("#pen-d").hide();
-    });
+    $("#dev").click(setDev);
+    $("#pen").click(setPen);
+
+    $("#marker-pen").click(setPen);
+    $("#marker-dev").click(setDev);
+
+
     $('#nav-expander').click(function(){
       $("#tNav").show(800);
       $("body").removeClass("ttbody");
@@ -64,3 +55,21 @@ $(document).ready(function(){
     });
 
 });
+
+function setDev(){
+  $("#dev").addClass("active");
+  $("#pen").removeClass("active");
+  $("#marker-dev").addClass("bg-primary");
+  $("#marker-pen").removeClass("bg-primary");
+  $("#dev-d").show();
+  $("#pen-d").hide();
+}
+
+function setPen(){
+  $("#pen").addClass("active");
+  $("#dev").removeClass("active");
+  $("#marker-pen").addClass("bg-primary");
+  $("#marker-dev").removeClass("bg-primary");
+  $("#dev-d").hide();
+  $("#pen-d").show();
+}
